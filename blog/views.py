@@ -1,4 +1,4 @@
-from django.contrib.postgres.search import SearchVector, SearchQuery, TrigramSimilarity
+from django.contrib.postgres.search import TrigramSimilarity
 from django.core.mail import send_mail
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Count
